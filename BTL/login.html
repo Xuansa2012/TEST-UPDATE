@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="icon/css/all.css">
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+  <script src="js/js.btl.js"></script>  
+  </head>
+
+<body>
+  <div class="login-login">
+    <div class="login-tieude">ĐĂNG NHẬP</div>
+    <form name="myform" method="post" action="trangchu.html"
+        onsubmit="return validateform()">
+    <div class="login-taikhoan form-control">
+      <div class="login-taikhoan-icon"><i class="fas fa-user"></i></div>
+      <input type="text" name="name">
+    </div>
+     <div class="login-taikhoan form-control">
+      <div class="login-taikhoan-icon"><i class="fas fa-key"></i></div>
+      <input type="password" name="password">
+    </div>
+    <div class="login-button">
+      <input type="submit" value="Đăng Nhập" class="form-control">
+    </div>
+  </form>
+  <div class="login-button">
+      <button class="form-control"><a href="trangchu.html">Trở về</a></button>
+    </div>
+    <div class="login-lk-dk">Nếu bạn chưa có tài khoản vui lòng bấm <a href="">Đăng kí</a></div>
+  </div>
+
+</body>
+</html>

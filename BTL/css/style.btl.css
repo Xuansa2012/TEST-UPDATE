@@ -1,0 +1,130 @@
+body{margin: 0; padding: 0;margin: 0px auto; }
+        img{width: 100%;height: 100%;}
+        li{list-style: none;}
+        .wrapper{width: 100%;height:auto;}
+        #back-to-top{border-radius: 50%;font-size: 50;background-color: #DDDDDD;width:50px;height: 50px;position: fixed;bottom: 30px;right: 30px;outline: none;z-index: 100000;padding: 5px;}
+        .back-top button{width:200px; height: 200px;}
+        #back-to-top i{width: 100%;height:100%;}
+        header{width: 100%;height: 80px;background-image: url('../images/background.png'); position: fixed;top: 0; z-index: 100000;}
+        .logo{width: 12%;height: 80px;margin-top: 5px;margin-left: 40px;float: left;}
+        .search{width: 25%;height: 40px;margin-left: 50px;float:left;margin-top: 25px;}
+        .search input[type=text]{width: 100%;background: #fff;height: 30px;font-size: 12px;padding: 5px 40px 5px 15px;border-right: 0;border-radius: 2px;border: 0;}
+        .button{width:3%;height: 30px;margin-left: -41px;float:left;margin-top: 25px;}
+        .button button{background-color: none;border: none;height:100%;}
+        .help{width: 50%;height: 50px;float: left;margin-left: 20px;margin-top: 20px;color: white;}
+        .help-one{width: 30%;height: 40px;float: left;}
+        .logo-user{width:30% ;height: 40px;float: left;margin-left: -10px;}
+        .login{width: 63%;float: left}
+        .login-top{width: 100%;}
+        .login-botom{width: 100%;}
+        .help-two{width: 31%;height: 40px;float: left;margin-left: -10px;}
+        .help a{color: white;font-weight: bold;}
+        nav{width: 100%;height: 40px;background-color: #DDDDDD; position: fixed;top: 80px; z-index: 1000;}
+        nav ul{width: 100%;display: flex;}
+        nav ul a:hover li{color: red;}
+        nav ul li{padding: 8px 10px ;font-size: 15px;width: 170px;}
+        nav ul li ul{ display: none;width: 250px;position: absolute;margin-top: 7px;margin-left: -10px;height: auto;background-color: white;z-index: 1}
+        nav ul li ul li{width: 250px;height:auto;border: none;border-bottom: 1px solid #ccc ;color:black;text-align: left;line-height: 23px;margin-left: -40px;margin-right: -40px;}
+        nav ul li:hover ul{display:  block;}
+        nav ul li {color: black;}
+        nav ul a:hover{text-decoration: none;}
+        nav ul li ul a:hover{text-decoration: none;}
+        .a-list{margin-right: 30%;width: 280px;}
+        .a-list a{color: black;}
+        .a-list a:hover{color: red;}
+        .content{width: 100%;height: auto;background-image: url('../images/content-a.png');
+        margin-top: 120px;}
+        .a-slider{width:95%;height:auto; margin: 0px auto;}
+        .product{width: 95%;height: auto;background-image: url('../images/content-a.png');margin: 0px auto;margin-top: 10px;}
+        .logo-item{width: 40px;height: 30px;background-color: white;float:left;;margin-top: 5px;}
+        .con-item{width:250px;height: 50px;float: left;margin-left: 10px;}
+        .l-product{width: 100%;height: 430px;margin-bottom: 10px;background-color: white;}
+        .time{width: 100%;height: 30px;margin-left: 10px;margin-top: 10px;}
+        .time-sale{width: 250px;height: 30px;float:left;color: red;font-weight: bold;font-size: 18px;line-height: 35px;}
+        .number-sale{width: 40%;height: 30px;float:left;margin-left: 10px;}
+        #day{font-size: 18px;padding: 8px;color: red;}
+        .slide-more{width: auto;height: 30px;float: left;margin-left: 550px;}
+        .slide-more a{color: black;text-decoration: none;}
+        .slide-more a:hover{color: green;}
+        .slide-more-two{width: auto;height: 30px;float:left;margin-left: 850px;}
+        .slide-more-two a{color: black;text-decoration: none;}
+        .slide-more-two a:hover{color: green;}
+        .e-product{width:100%;height:auto;margin-top: 5px;margin-left:10px;float:left;border: 2px solid #EEEEEE;border-radius: 5px 5px 5px 5px;}
+        .e-product:first-child {margin-left: 0px;}
+        .e-product:hover{box-shadow: 5px 5px 5px 5px #AAA;}
+        .pro-img{width: 100%;height: 225px;}
+        .pro-img img{width: 100%;height: 100%;}
+        .nut{width: 20px;height:20px;}
+        .e-product>button{width: 100%;background-color: red;color: white;font-weight: bold;height: 30px;border: none;}
+        .owl-carousel>>button{width: 30px; height: 100px;margin-top: -300px;position: absolute;top: 200px;z-index: 9999;left:98%;}
+        .owl-carousel button:first-child {margin-right: 93.5%;margin-left: 10px;position: absolute;top: 200px;z-index: 9999;}
+        .owl-next{position: absolute;top: 200px;z-index: 9999;left:98%;}
+        .buy{width: 40px;height: 25px;background-color: red;margin-left: 16%;margin-top: -225px;margin-bottom: 225px;z-index: 1;position:absolute;border: 1px solid red;border-radius: 5px 5px;}
+        a .buy {color: white;padding-left: 5px;}
+        .tieu-de{width: 100%;height:80px; padding: 0px 5px 0px 5px;}
+        .text-pro{width: 100%;height: auto;margin-top: 5px;margin-left: 5px;}
+        .gia{font-weight:bold}
+        .giam-gia{width: 100%;height:20px;}
+        .text-pro a{color: black;text-decoration: none;}
+        .text-pro a:hover{color: green;}
+        .clear{width: 100%;height: 4px;background-color: red;margin-top: 10px;}
+        footer{width: 100%;height: auto;background-color: #BFFF00;}
+        .footer-one{width: 100%;height: 206px;background-color: white;}
+        .b-item{width: 15%;height: 200px;background-color: white;margin-left: 80px;float: left;}
+        .c-item{width: 15%;height: 200px;background-color: white;margin-left: 80px;float: left;}
+        .b-pic{width:100px;height: 100px;background-color: white;margin-top: 30px;margin-left: 40px;}
+        .b-text{width: 200px;height: 40px;background-color: white;margin-top:15px;text-align: center;color: black;font-weight: bold;}
+        .footer-two{width: 100%;height: 500px;background-image:url('../images/color-footer.png');}
+        .footer-two img{width: 150px;height: 100px;}
+        .end-img{width: 130px;height: 50px;background-image:url('../images/color-footer.png');}
+        .end-img img{width:100%;height: 100%;}
+        .row{margin-left: -70px;color: white;}
+        h4{color: gray;}
+        .footer-two a{text-decoration: none;color: white;}
+        .footer-two a:hover{color: red;}
+        .b-clear{width: 100%;height: 1px;background-color: white;margin-top: 20px;}
+        .footer-three{width: 100%;height: 200px;background-image:url('../images/color-footer.png');margin-top: 5px;float: left;}
+        .a-table{width: 25%;height: 156px;background-image: url('../images/son-footer.png');margin-left: 7%;margin-top:10px;float: left;border:1px solid ;border-radius: 5px 5px 5px 5px;color: gray;font-weight: bold;line-height: 30px;padding-left: 15px;padding-right:5px;font-size: 15px;}
+        p{color: white;font-weight: normal;line-height: 20px;font-size: 12px;}
+        
+        
+        @media only screen and (max-width : 1000px) {
+            .logo{margin-left: 10px;}
+            .search{width: 18%;margin-left: 20px;}
+            .button{width: 5%;height:30px;margin-left: -30px}
+            .button button{background-color: white;border: 1px white;height:100%;}
+            .help{width: 58%;margin-left: 10px;}
+            .help-one{width: 34%;margin-right: -10px;}
+            .logo-user{width:20% ;height: 30px;float: left;margin-left: -10px;}
+            .help-two{width: 35%;}
+            nav ul li{width: 170px;margin-left: -14px;}
+            .a-list{margin-right: 5%;width: 275px;margin-left: -20px;}
+            .e-product>button{width: 100%;font-size: 12px;}
+            .b-item{margin-left: 20px;width: 20%;}
+            .c-item{margin-left: 20px;width: 20%;}
+            .a-table{height: 236px;}
+            .footer-three{height:256px;}
+        }
+        @media only screen and (max-width : 700px) {
+            header{height:130px;}
+            .logo{margin-left: 10px;width: 30%;}
+            .search{width: 50%}
+            .button{margin-left: -35px;width:8%;}
+            .help{width:90%;margin-left: -150px;}
+            .help-one{width: 30%;}
+            .login{width: 70%;}
+            .logo-user{width: 30%;height:30px;}
+            .help-two{width: 35%;margin-left: 10px;}
+            nav{width: 100%;height: auto;top:130px; }
+            nav ul{ display:inline-table}
+            nav ul li{width: 300px;}
+            .a-list{width: 300px;}
+            .content{margin-top: 280px;}
+            .e-product{width:100%;}
+            .l-product{width: 100%;}
+            .b-item{width: 45%}
+            .c-item{width:45%;}
+            .footer-one{height:406px;}
+            .a-table{height: 306px;}
+            .footer-three{height:316px;}
+        }
